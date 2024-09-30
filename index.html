@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/logo.png" type="image/x-icon"/>
+    <title>New Tab</title>
+</head>
+<body>
+    <div class="container">
+        <img src="assets/logo.png" alt="Logo">
+        <h1>Pauyfox</h1>
+    </div>
+    <div class="search-container">
+        <form action="https://www.google.com/search" method="get">
+            <input type="text" name="q" placeholder="Search Google..." class="search-bar" required autocomplete="off" id="search-input">
+        </form>
+        <ul id="suggestions" class="suggestions-list"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
